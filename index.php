@@ -59,7 +59,5 @@
     <?php include("footer.php");?>
     <!-- Footer Area End -->
 
-
-
 </body>
 </html>

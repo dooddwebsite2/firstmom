@@ -53,3 +53,16 @@
     </footer>
 
     <script src="scripts.js"></script>
+    <script src="facebooks.js"></script>
+
+
+    <! — Load Facebook SDK for JavaScript →
+
+
+    <div id=”fb-root”></div>
+    <! — Your customer chat code →
+    <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="1679912525672577"
+        theme_color="#0084ff">
+    </div>
