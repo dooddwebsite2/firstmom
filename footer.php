@@ -54,15 +54,22 @@
 
     <script src="scripts.js"></script>
     <script src="facebooks.js"></script>
+     <! — Load Facebook SDK for JavaScript →
 
 
-    <! — Load Facebook SDK for JavaScript →
-
-
-    <div id=”fb-root”></div>
-    <! — Your customer chat code →
-    <div class="fb-customerchat"
-        attribution="setup_tool"
+<div id=”fb-root”></div>
+<!--
+<! — Your customer chat code →
+<div class="fb-customerchat"
+    attribution="setup_tool"
+    page_id="1679912525672577"
+    theme_color="#0084ff">
+</div>
+-->
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
         page_id="1679912525672577"
-        theme_color="#0084ff">
-    </div>
+  logged_in_greeting="สวัสดีร้านขนมแม่นา มีอะไรให้ช่วยไหมค่ะ"
+  logged_out_greeting="สวัสดีร้านขนมแม่นา มีอะไรให้ช่วยไหมค่ะ">
+      </div>
